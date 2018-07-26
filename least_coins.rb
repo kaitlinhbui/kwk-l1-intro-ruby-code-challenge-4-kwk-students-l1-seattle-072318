@@ -25,7 +25,7 @@
 
 puts "Welcome to your least coins calculator. Please enter an amount of money in cents:"
 
-cents = gets.strip
+cents = gets.strip.to_i
 
 def least_coins(cents)
   coins = {
